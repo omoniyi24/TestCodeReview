@@ -1,6 +1,6 @@
 # TestCodeReview
 
-This application was generated using JHipster, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v7.0.0](https://www.jhipster.tech/documentation-archive/v7.0.0).
+This application was generated using JHipster 7.0.0, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v7.0.0](https://www.jhipster.tech/documentation-archive/v7.0.0).
 
 This is a "microservice" application intended to be part of a microservice architecture, please refer to the [Doing microservices with JHipster][] page of the documentation for more information.
 This application is configured for Service Discovery and Configuration with the JHipster-Registry. On launch, it will refuse to start if it is not able to connect to the JHipster-Registry at [http://localhost:8761](http://localhost:8761). For more information, read our documentation on [Service Discovery and Configuration with the JHipster-Registry][].
@@ -15,7 +15,7 @@ To start your application in the dev profile, run:
 
 For further instructions on how to develop with JHipster, have a look at [Using JHipster in development][].
 
-## Building for productionss
+## Building for production
 
 ### Packaging as jar
 
@@ -41,7 +41,7 @@ To package your application as a war in order to deploy it to an application ser
 ./mvnw -Pprod,war clean verify
 ```
 
-## Testings
+## Testing
 
 To launch your application's tests, run:
 
